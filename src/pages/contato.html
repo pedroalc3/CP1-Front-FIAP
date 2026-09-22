@@ -15,6 +15,7 @@
 <body> 
 
     <header class="topo">
+        
         <nav class="menu-principal">
         
             <a href="../../index.html" class="ativo">Início</a>
@@ -24,7 +25,26 @@
             <a href="../pages/armazenamento.html">Armazenamento</a>
             
         </nav>
+        <div id="corDoTitulo">
+            <h1>Vinheria Agnello</h1> 
+        </div>
+        <hr>
     </header>
-            
+    <h2 style="color: white;">Entre em contato conosco:</h2>
+<div style="margin: 10px;">
+    <form action="/enviar" method="POST">
+    <label style="color: white;"for="nome">Nome:</label>
+    <input type="text" id="nome" name="NOME" required>
+    <label style="color: white;" for="email">E-mail:</label>
+    <input type="email" id="email" name="EMAIL" required>
+    <br>
+    <br>
+    <textarea id="mensagem" name="mensagem" rows="5" cols="40" placeholder="Digite seu comentario aqui..." required></textarea>
+    
+    <button type="submit">Enviar</button>
+    </form>
+</div>
+
+
 </body>
 </html>
