@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 10;
     background-color: rgb(26, 0, 7);
 }
 
@@ -55,7 +55,7 @@ td {
 
 
 .video-vinho {
-    margin-top: 90px;
+    margin-top: 110px;
     margin-bottom: 30px;
     display: flex;
     justify-content: center;
@@ -146,6 +146,17 @@ td {
     margin: 20px;
 }
 
+.imagemArmazenamento {
+    justify-content: center;
+    display: flex;
+    margin: 50px;
+}
+
+.gif{
+    display: flex;
+    justify-content: center;
+   
+}
 .quebra-texto p {
     width: 800px;
 }
