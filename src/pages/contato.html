@@ -9,14 +9,14 @@
     <meta name="description" content="Entre em contato com a Vinheria Agnello para mais informações sobre nossos vinhos e serviços.">
     <title>Vinheria Agnello</title>
     <link rel="stylesheet" href="../css/style.css">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=Lora:ital,wght@0,400;0,600;1,400&family=Alex+Brush&display=swap"rel="stylesheet">
 </head>
 
 <body> 
 
     <header class="topo">
         
-        <nav class="menu-principal">
+        <nav class="barraTopo">
         
             <a href="../../index.html" class="ativo">Início</a>
             <a href="../pages/historia.html">Nossa história</a>
@@ -33,19 +33,26 @@
         <hr>
 
     </header>
-    <h2 style="color: white;">Entre em contato conosco:</h2>
-<div style="margin: 10px;">
+<div class="formulario-contato">
+
+    <h2>Entre em contato conosco:</h2>
+
     <form action="/enviar" method="POST">
-    <label style="color: white;"for="nome">Nome:</label>
-    <input type="text" id="nome" name="NOME" required>
-    <label style="color: white;" for="email">E-mail:</label>
-    <input type="email" id="email" name="EMAIL" required>
-    <br>
-    <br>
-    <textarea id="mensagem" name="mensagem" rows="5" cols="40" placeholder="Digite seu comentario aqui..." required></textarea>
-    
-    <button type="submit">Enviar</button>
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="NOME" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="EMAIL" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite seu comentário aqui..."
+            required></textarea>
+
+        <button class="contato" type="submit">Enviar</button>
+
     </form>
+
 </div>
 
 
