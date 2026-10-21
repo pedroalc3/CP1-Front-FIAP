@@ -1,0 +1,12 @@
+p#pfirst-letter::first-letter {
+    font-size: 199%;
+    font-weight: bold;
+    float: left;
+    margin-right: 12px;
+}
+
+
+::selection {
+    background-color: #948818;
+    color: white;
+}
