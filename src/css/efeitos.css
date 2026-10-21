@@ -5,8 +5,56 @@ p#pfirst-letter::first-letter {
     margin-right: 12px;
 }
 
-
 ::selection {
     background-color: #948818;
     color: white;
+}
+
+
+.barraTopo a {
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.barraTopo a:hover {
+    transform: scale(1.1);
+}
+
+.textos img,
+.imagemIndex img,
+.imagemArmazenamento img {
+    transition: transform 0.3s ease;
+}
+
+.textos img:hover,
+.imagemIndex img:hover,
+.imagemArmazenamento img:hover {
+    transform: scale(1.05);
+}
+
+.textos h2,
+#corDoTitulo h3 {
+    transition: transform 0.3s ease;
+}
+
+.textos h2:hover,
+#corDoTitulo h3:hover {
+    transform: translateX(10px);
+}
+
+#corDoTitulo h1 {
+    transition: transform 0.3s ease;
+}
+
+#corDoTitulo h1:hover {
+    transform: rotate(-2deg);
+}
+
+
+.textos p {
+    transition: transform 0.3s ease;
+}
+
+.textos p:hover {
+    transform: translateX(5px);
 }
