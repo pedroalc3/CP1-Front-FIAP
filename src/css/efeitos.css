@@ -68,3 +68,12 @@ p#pfirst-letter::first-letter {
     color: #c9a227;
     font-size: 16.5px;
 }
+
+
+input:focus {
+    background-color: #fff8cc;
+}
+
+textarea:focus {
+    background-color: #fff8cc;
+}
