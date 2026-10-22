@@ -28,6 +28,21 @@ Falaremos sobre como os vinho da Vinharia Agnllo são armazenados e os cuidados 
 Página 5 (CONTATO)
 formulário para que os usuários possam entrar em contato com a vinheria e enviar feedbacks sobre o site.
 
+EFEITOS VISUAIS:
+Pseudo-classes, Pseudo-elementos e Animações
+
+Pseudo-classes (:hover, :visited, :focus e ::selection)
+Personalizam a aparência dos elementos conforme a interação do usuário. O :hover aplica efeitos ao passar o mouse, o :visited altera a cor dos links já acessados, o :focus destaca campos selecionados e o ::selection personaliza as cores do texto selecionado.
+
+Pseudo-elemento (::first-letter)
+Destaca a primeira letra de um parágrafo, aumentando seu tamanho, deixando-a em negrito e posicionando o texto ao seu redor.
+
+Transições com transition
+Adicionam suavidade às mudanças visuais dos elementos, evitando alterações bruscas de tamanho, cor ou posição.
+
+Animação com @keyframes e animation
+Cria e aplica uma animação chamada aparecer aos títulos h1, fazendo com que surjam gradualmente de uma posição um pouco mais baixa até sua posição original, durante 2 segundos.
+
 
 
 INTEGRANTES:
